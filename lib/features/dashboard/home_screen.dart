@@ -30,12 +30,12 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              child: const Row(
+              child: Row(
                 children: [
                   Expanded(
                     child: Text(
-                      "Welcome back, User! 👋",
-                      style: TextStyle(
+                      "Welcome back, $name! 👋",
+                      style: const TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.w600,
                         color: Colors.white,
